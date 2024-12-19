@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamable</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"> </script>
+</head>
+
+<body>
+    <div id="display-view">
+        <h1>User</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPArcmBWRIC7AlMkUs5I7cLLyXUS3_sj-SEw&s"
+            alt="image-here">
+        <span>Name :</span><b id="name"> shyam pathade</b>
+        <hr>
+        <span>Email :</span><b id="email"> shyampathade57@gmail.com</b>
+        <hr>
+        <span>Interest :</span><b id="interests"> problem-solving</b>
+        <hr>
+        <button onclick="handleEditProfile()">Edit text</button>
+    </div>
+    <div id="edit-view">
+        <h1>User</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPArcmBWRIC7AlMkUs5I7cLLyXUS3_sj-SEw&s"
+            alt="image-here">
+        <span>Name :</span>
+        <input type="text" id="input-name" placeholder=" shyam pathade">
+        <hr>
+        <span>Email :</span>
+        <input type="text" id="input-email" placeholder=" shyampathade57@gmail.com">
+        <hr>
+        <span>Interest :</span>
+        <input type="text" id="input-interest" placeholder=" problem-solving">
+        <hr>
+        <button onclick="handleUpdateProfile()">Update Text</button>
+    </div>
+</body>
+
+</html>

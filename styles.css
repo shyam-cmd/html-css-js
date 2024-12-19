@@ -1,0 +1,43 @@
+/* body{
+    background-color: antiquewhite;
+} */
+img {
+    
+width: 320px;
+height: 270px;
+display: block;
+margin-bottom: 40px;
+
+}
+
+div{
+    /* background-color: aliceblue; */
+    width: 80%;
+    margin: 40px auto;
+
+
+}
+
+hr{
+    width: 330px;
+    margin-left: 0;
+    margin: 25px 0 25px 0;
+}
+button{
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    border-style: none;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    border-style: none;
+}
+#edit-view{
+    display:none;
+}
