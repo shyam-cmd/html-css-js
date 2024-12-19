@@ -2,7 +2,7 @@
 
 Display User Details by adding Name, Email, Interest
 
-<img src="/home/shyam/Documents/teamable-app/Screenshot from 2024-12-19 18-39-52.png">
+<img src="Screenshot from 2024-12-19 18-39-52.png">
  
 Update Text User Details As you need. lol.
 
